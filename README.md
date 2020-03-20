@@ -1,35 +1,8 @@
-# BLE-HID-Peripheral-for-Android
-[![Build Status](https://travis-ci.org/kshoji/BLE-HID-Peripheral-for-Android.svg?branch=master)](https://travis-ci.org/kshoji/BLE-HID-Peripheral-for-Android)
+# Splatoon 2 Drawings via Android
+Kind of like https://github.com/WyseNynja/Splatoon-2-Drawing but without any USB.
 
-## BLE HID over GATT Profile for Android
+Emulates a procon on Android using BLE. Can/will probably serve as a base for implementing an open-source alternative to [JoyCon Droid](https://play.google.com/store/apps/details?id=com.rdapps.gamepad).
 
-This library provides BLE HID Peripheral feature to Android devices. <br/>
-Android device will behave as:
+For structure, will mimick this wonderful repo https://github.com/mart1nro/joycontrol
 
-- BLE Mouse (relative position / absolute position)
-- BLE Keyboard
-- BLE Joystick
-
-Tested connection:
-
-- Android(Peripheral) <--> Android(Central)
-    - Relative Position Mouse, Keyboard
-- Android(Peripheral) <--> OS X(Central)
-    - Absolute Position Mouse, Relative Position Mouse, Keyboard
-
-Currently, connection with iOS central is not tested yet.
-
-Requirements
-------------
-
-- **API Level 21 or later** and **Bluetooth LE Peripheral feature** will be needed.
-
-Repository Overview
--------------------
-
-- Library Project: `lib`
-- Sample Project: `app`
-
-LICENSE
-=======
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+Made for fun and educational purposes.
